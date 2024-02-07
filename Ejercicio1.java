@@ -6,7 +6,7 @@ public class Ejercicio1 {
         int segundosEnUnMinuto = 60;
 
         int segundosEnUnAnio = calcularSegundosEnUnAnio(diasEnUnAnio, horasEnUnDia, minutosEnUnaHora, segundosEnUnMinuto);
-        System.out.println("El número de segundos en un año es: " + segundosEnUnAnio);
+        System.out.println("El numero de segundos en un año es: " + segundosEnUnAnio);
     }
 
     public static int calcularSegundosEnUnAnio(int dias, int horas, int minutos, int segundos) {
